@@ -1,0 +1,49 @@
+@font-face {
+    font-family: smile;
+    src: url(fuente/Smilecake.otf);
+}
+
+
+@font-face {
+    font-family: montena;
+    src: url(fuente/MotenaGolden-Reguler.ttf);
+}
+
+body{
+    background-color: rgb(236, 126, 126) ;
+    padding: 5em;
+    font-family: smile;
+}
+
+p{
+    font-family: 'montena';
+}
+
+.fondoblanco{
+    background-color: white;
+}
+.bordeblanco{
+    border: 20px solid red;
+    border-radius: 20px;
+}
+
+.imagenfes{
+    width: 150px;
+    text-align: center;
+}
+
+.textooter{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1 em;
+    font-family: 'montena';
+    font-size: 25px;
+}
+
+.parrafooter{
+    margin: 0;
+    font-size: 20px;
+    font-family: montena;
+}

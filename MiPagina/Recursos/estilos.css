@@ -1,0 +1,66 @@
+@font-face {
+    font-family: smile;
+    src: url(fuente/Smilecake.otf);
+}
+
+
+@font-face {
+    font-family: montena;
+    src: url(fuente/MotenaGolden-Reguler.ttf);
+}
+
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(255,0,0,1) 100%);
+    padding: 5em;
+    font-family: smile;
+}
+
+p{
+    font-family: 'montena';
+}
+
+.fondoblanco{
+    background-color: white;
+}
+.imagenfes{
+    width: 150px;
+    text-align: center;
+}
+
+.textooter{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1 em;
+    font-family: 'montena';
+    font-size: 25px;
+}
+
+.parrafooter{
+    margin: 0;
+    font-size: 20px;
+    font-family: montena;
+}
+
+.titulo{
+    font-size: xx-large;
+    font-family: montena;
+}
+
+.subtitulo {
+    font-size: xx-large;
+    font-family: montena;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.imagenfondo {
+    background-image: url(media/fes-aragon-logo.jpg);
+    padding: 15px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 4.5em;
+}
